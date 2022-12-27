@@ -32,7 +32,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Sajidbashir24h\\Gamify\\": "src/"
+            "Ansezz\\Gamify\\": "src/"
         },
         "files": [
             "src/helpers.php"
@@ -40,16 +40,16 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Sajidbashir24h\\Gamify\\Tests\\": "tests/"
+            "Ansezz\\Gamify\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Sajidbashir24h\\Gamify\\GamifyServiceProvider"
+                "Ansezz\\Gamify\\GamifyServiceProvider"
             ],
             "aliases": {
-                "Gamify": "Sajidbashir24h\\Gamify\\Facades\\GamifyFacade"
+                "Gamify": "Ansezz\\Gamify\\Facades\\GamifyFacade"
             }
         }
     },
