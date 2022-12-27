@@ -1,11 +1,11 @@
 {
-    "name": "ansezz/laravel-gamify",
+    "name": "sajidbashir24h/laravel-reward-points",
     "description": "Add Gamification in laravel app with point and badges support",
-    "homepage": "https://github.com/ansezz/laravel-gamify",
+    "homepage": "https://github.com/sajidbashir24h/laravel-reward-points",
     "type": "library",
     "license": "MIT",
     "keywords": [
-        "ansezz",
+        "sajidbashir24h",
         "laravel",
         "achivement",
         "gamify",
@@ -17,13 +17,13 @@
     ],
     "authors": [
         {
-            "name": "Anass Ez-zouaine",
-            "email": "ansezzouaine@gmail.com"
+            "name": "Sajid Bashir24h",
+            "email": "sajidbashir24h@gmail.com"
         }
     ],
     "require": {
         "php": ">=7.2",
-        "laravel/framework": "~5.4.0|~5.5.0|~5.6.0|~5.7.0|~5.8.0|^6.0|^7.0|^8.0"
+        "laravel/framework": "~5.4.0|~5.5.0|~5.6.0|~5.7.0|~5.8.0|^6.0|^7.0|^8.0|^9.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.0",
@@ -32,7 +32,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Ansezz\\Gamify\\": "src/"
+            "Sajidbashir24h\\Gamify\\": "src/"
         },
         "files": [
             "src/helpers.php"
@@ -40,16 +40,16 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Ansezz\\Gamify\\Tests\\": "tests/"
+            "Sajidbashir24h\\Gamify\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Ansezz\\Gamify\\GamifyServiceProvider"
+                "Sajidbashir24h\\Gamify\\GamifyServiceProvider"
             ],
             "aliases": {
-                "Gamify": "Ansezz\\Gamify\\Facades\\GamifyFacade"
+                "Gamify": "Sajidbashir24h\\Gamify\\Facades\\GamifyFacade"
             }
         }
     },
