@@ -1,8 +1,8 @@
 <?php
 
-namespace Ansezz\Gamify\Events;
+namespace Sajidbashir24h\Gamify\Events;
 
-use Ansezz\Gamify\Badge;
+use Sajidbashir24h\Gamify\Badge;
 use Illuminate\Broadcasting\Channel;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Database\Eloquent\Model;

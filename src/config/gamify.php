@@ -2,7 +2,7 @@
 
 return [
     // Reputation model
-    'point_model'                  => '\Ansezz\Gamify\Point',
+    'point_model'                  => '\Sajidbashir24h\Gamify\Point',
 
     // Broadcast on private channel
     'broadcast_on_private_channel' => true,
@@ -11,7 +11,7 @@ return [
     'channel_name'                 => 'user.reputation.',
 
     // Badge model
-    'badge_model'                  => '\Ansezz\Gamify\Badge',
+    'badge_model'                  => '\Sajidbashir24h\Gamify\Badge',
 
     // Where all badges icon stored
     'badge_icon_folder'            => 'images/badges/',

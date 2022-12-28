@@ -1,6 +1,6 @@
 <?php
 
-namespace Ansezz\Gamify;
+namespace Sajidbashir24h\Gamify;
 
 class BasePoint
 {

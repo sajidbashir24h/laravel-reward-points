@@ -4,7 +4,7 @@
 
 use Faker\Generator as Faker;
 
-$factory->define(\Ansezz\Gamify\Badge::class, function (Faker $faker) {
+$factory->define(\Sajidbashir24h\Gamify\Badge::class, function (Faker $faker) {
     return [
         'name'        => $faker->text(50),
         'description' => $faker->text,

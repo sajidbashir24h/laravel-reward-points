@@ -2,7 +2,7 @@
 
 namespace DummyNamespace;
 
-use Ansezz\Gamify\BasePoint;
+use Sajidbashir24h\Gamify\BasePoint;
 
 class DummyClass extends BasePoint
 {

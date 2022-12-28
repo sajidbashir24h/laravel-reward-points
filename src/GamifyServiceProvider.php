@@ -1,15 +1,15 @@
 <?php
 
-namespace Ansezz\Gamify;
+namespace Sajidbashir24h\Gamify;
 
-use Ansezz\Gamify\Facades\Gamify;
+use Sajidbashir24h\Gamify\Facades\Gamify;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Event;
-use Ansezz\Gamify\Listeners\SyncBadges;
+use Sajidbashir24h\Gamify\Listeners\SyncBadges;
 use Illuminate\Support\ServiceProvider;
-use Ansezz\Gamify\Console\MakeBadgeCommand;
-use Ansezz\Gamify\Console\MakePointCommand;
-use Ansezz\Gamify\Events\PointsChanged;
+use Sajidbashir24h\Gamify\Console\MakeBadgeCommand;
+use Sajidbashir24h\Gamify\Console\MakePointCommand;
+use Sajidbashir24h\Gamify\Events\PointsChanged;
 
 class GamifyServiceProvider extends ServiceProvider
 {

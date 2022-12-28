@@ -1,8 +1,8 @@
 <?php
 
-namespace Ansezz\Gamify\Listeners;
+namespace Sajidbashir24h\Gamify\Listeners;
 
-use Ansezz\Gamify\Events\PointsChanged;
+use Sajidbashir24h\Gamify\Events\PointsChanged;
 
 class SyncBadges
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Ansezz\Gamify\Console;
+namespace Sajidbashir24h\Gamify\Console;
 
-use Ansezz\Gamify\GamifyGroup;
-use Ansezz\Gamify\Point;
+use Sajidbashir24h\Gamify\GamifyGroup;
+use Sajidbashir24h\Gamify\Point;
 use Illuminate\Console\GeneratorCommand;
 
 class MakePointCommand extends GeneratorCommand

@@ -2,7 +2,7 @@
 
 namespace DummyNamespace;
 
-use Ansezz\Gamify\BaseBadge;
+use Sajidbashir24h\Gamify\BaseBadge;
 
 class DummyClass extends BaseBadge
 {

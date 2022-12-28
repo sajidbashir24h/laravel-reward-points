@@ -1,9 +1,9 @@
 <?php
 
-namespace Ansezz\Gamify\Console;
+namespace Sajidbashir24h\Gamify\Console;
 
-use Ansezz\Gamify\Badge;
-use Ansezz\Gamify\GamifyGroup;
+use Sajidbashir24h\Gamify\Badge;
+use Sajidbashir24h\Gamify\GamifyGroup;
 use Illuminate\Console\GeneratorCommand;
 
 class MakeBadgeCommand extends GeneratorCommand

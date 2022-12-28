@@ -1,6 +1,6 @@
 <?php
 
-namespace Ansezz\Gamify\Tests;
+namespace Sajidbashir24h\Gamify\Tests;
 
 class DemoTest extends TestCase
 {

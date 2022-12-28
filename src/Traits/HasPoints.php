@@ -1,9 +1,9 @@
 <?php
 
-namespace Ansezz\Gamify\Traits;
+namespace Sajidbashir24h\Gamify\Traits;
 
-use Ansezz\Gamify\Events\PointsChanged;
-use Ansezz\Gamify\Point;
+use Sajidbashir24h\Gamify\Events\PointsChanged;
+use Sajidbashir24h\Gamify\Point;
 
 trait HasPoints
 {
@@ -40,7 +40,7 @@ trait HasPoints
 
 
     /**
-     * @param \Ansezz\Gamify\Point $point
+     * @param \Sajidbashir24h\Gamify\Point $point
      *
      * @param bool $event
      *

@@ -1,6 +1,6 @@
 <?php
 
-namespace Ansezz\Gamify\Events;
+namespace Sajidbashir24h\Gamify\Events;
 
 use Illuminate\Broadcasting\Channel;
 use Illuminate\Queue\SerializesModels;

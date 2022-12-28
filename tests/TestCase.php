@@ -1,9 +1,9 @@
 <?php
 
-namespace Ansezz\Gamify\Tests;
+namespace Sajidbashir24h\Gamify\Tests;
 
-use Ansezz\Gamify\Facades\GamifyFacade;
-use Ansezz\Gamify\GamifyServiceProvider;
+use Sajidbashir24h\Gamify\Facades\GamifyFacade;
+use Sajidbashir24h\Gamify\GamifyServiceProvider;
 use Orchestra\Testbench\TestCase as OrchestraTestCase;
 
 class TestCase extends OrchestraTestCase

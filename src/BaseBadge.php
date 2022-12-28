@@ -1,8 +1,8 @@
 <?php
 
-namespace Ansezz\Gamify;
+namespace Sajidbashir24h\Gamify;
 
-use Ansezz\Gamify\Exceptions\LevelNotExist;
+use Sajidbashir24h\Gamify\Exceptions\LevelNotExist;
 use Illuminate\Support\Str;
 
 class BaseBadge
@@ -13,7 +13,7 @@ class BaseBadge
      * @param $subject
      *
      * @return \Illuminate\Config\Repository|mixed
-     * @throws \Ansezz\Gamify\Exceptions\LevelNotExist
+     * @throws \Sajidbashir24h\Gamify\Exceptions\LevelNotExist
      */
     public function levelIsAchieved($level, $subject)
     {

@@ -1,6 +1,6 @@
 # Changelog
 
-All notable changes to `ansezz/laravel-gamify` will be documented in this file
+All notable changes to `Sajidbashir24h/laravel-gamify` will be documented in this file
 
 ## 1.2 - 2020-04-05
 

@@ -1,9 +1,9 @@
 <?php
 
-namespace Ansezz\Gamify\Facades;
+namespace Sajidbashir24h\Gamify\Facades;
 
-use Ansezz\Gamify\Badge;
-use Ansezz\Gamify\Events\BadgeAchieved;
+use Sajidbashir24h\Gamify\Badge;
+use Sajidbashir24h\Gamify\Events\BadgeAchieved;
 
 class Gamify
 {

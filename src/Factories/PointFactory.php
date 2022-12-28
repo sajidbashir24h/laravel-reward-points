@@ -4,7 +4,7 @@
 
 use Faker\Generator as Faker;
 
-$factory->define(\Ansezz\Gamify\Point::class, function (Faker $faker) {
+$factory->define(\Sajidbashir24h\Gamify\Point::class, function (Faker $faker) {
     return [
         'name'            => $faker->text(50),
         'point'           => $faker->randomNumber(),

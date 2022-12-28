@@ -1,22 +1,22 @@
 ## 🏆 Laravel Gamify  🕹
 Laravel Gamify: Gamification System with Points & Badges support
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/ansezz/laravel-gamify.svg)](https://packagist.org/packages/ansezz/laravel-gamify)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/Sajidbashir24h/laravel-gamify.svg)](https://packagist.org/packages/Sajidbashir24h/laravel-gamify)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](LICENSE.md)
-[![Build Status](https://img.shields.io/travis/ansezz/laravel-gamify/master.svg)](https://travis-ci.org/ansezz/laravel-gamify)
-[![Total Downloads](https://img.shields.io/packagist/dt/ansezz/laravel-gamify.svg)](https://packagist.org/packages/ansezz/laravel-gamify)
+[![Build Status](https://img.shields.io/travis/Sajidbashir24h/laravel-gamify/master.svg)](https://travis-ci.org/Sajidbashir24h/laravel-gamify)
+[![Total Downloads](https://img.shields.io/packagist/dt/Sajidbashir24h/laravel-gamify.svg)](https://packagist.org/packages/Sajidbashir24h/laravel-gamify)
 
-[![Latest Version on Packagist](https://repository-images.githubusercontent.com/245541946/0a641100-742a-11ea-8362-41f2d6d52974)](https://packagist.org/packages/ansezz/laravel-gamify)
+[![Latest Version on Packagist](https://repository-images.githubusercontent.com/245541946/0a641100-742a-11ea-8362-41f2d6d52974)](https://packagist.org/packages/Sajidbashir24h/laravel-gamify)
 
 
-Use `ansezz/laravel-gamify` to quickly add point &amp; badges in your Laravel app.
+Use `Sajidbashir24h/laravel-gamify` to quickly add point &amp; badges in your Laravel app.
 
 ### Installation
 
 **1** - You can install the package via composer:
 
 ```bash
-$ composer require ansezz/laravel-gamify
+$ composer require Sajidbashir24h/laravel-gamify
 ```
 
 **2** - If you are installing on Laravel 5.4 or lower you will be needed to manually register Service Provider by adding it in `config/app.php` providers array.
@@ -24,7 +24,7 @@ $ composer require ansezz/laravel-gamify
 ```php
 'providers' => [
     //...
-    Ansezz\Gamify\GamifyServiceProvider::class
+    Sajidbashir24h\Gamify\GamifyServiceProvider::class
 ]
 ```
 
@@ -33,7 +33,7 @@ In Laravel 5.5 and above the service provider automatically.
 **3** - Now publish the migration for gamify tables:
 
 ```
-php artisan vendor:publish --provider="Ansezz\Gamify\GamifyServiceProvider" --tag="migrations"
+php artisan vendor:publish --provider="Sajidbashir24h\Gamify\GamifyServiceProvider" --tag="migrations"
 ```
 
 *Note:* It will generate migration for `points`, `badges`, `gamify_groups`, `pointables`, `badgables` tables, you will need to run `composer require doctrine/dbal` in order to support dropping and adding columns.
@@ -44,7 +44,7 @@ php artisan migrate
 
 You can publish the config file:
 ```bash
-php artisan vendor:publish --provider="Ansezz\Gamify\GamifyServiceProvider" --tag="config"
+php artisan vendor:publish --provider="Sajidbashir24h\Gamify\GamifyServiceProvider" --tag="config"
 ```
 
 If your payee (model who will be getting the points) model is `App\User` then you don't have to change anything in `config/gamify.php`.
@@ -54,7 +54,7 @@ If your payee (model who will be getting the points) model is `App\User` then yo
 **1.** After package installation now add the **Gamify** trait on `App\User` model or any model who acts as **user** in your app.
 
 ```php
-use Ansezz\Gamify\Gamify;
+use Sajidbashir24h\Gamify\Gamify;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 
@@ -83,7 +83,7 @@ It will create a Point class named `PostCreated` under `app/Gamify/Points/` fold
 
 namespace App\Gamify\Points;
 
-use Ansezz\Gamify\BasePoint;
+use Sajidbashir24h\Gamify\BasePoint;
 
 class PostCreated extends BasePoint
 {
@@ -173,7 +173,7 @@ foreach($user->badges as $badge) {
 
 #### Event on points changed
 
-Whenever user point changes it fires `\Ansezz\Gamify\Events\PointsChanged` event which has the following payload:
+Whenever user point changes it fires `\Sajidbashir24h\Gamify\Events\PointsChanged` event which has the following payload:
 
 ```php
 class PointsChanged implements ShouldBroadcast {
@@ -215,7 +215,7 @@ For each level you need to define a function by level name to check if the subje
 
 namespace App\Gamify\Badges;
 
-use Ansezz\Gamify\BaseBadge;
+use Sajidbashir24h\Gamify\BaseBadge;
 
 class PostCreated extends BaseBadge
 {
@@ -290,7 +290,7 @@ $user->syncBadge($badge);
 
 #### Event on badge achieved
 
-Whenever user point changes it fires `\Ansezz\Gamify\Events\BadgeAchieved` event which has the following payload:
+Whenever user point changes it fires `\Sajidbashir24h\Gamify\Events\BadgeAchieved` event which has the following payload:
 
 ```php
 class BadgeAchieved implements ShouldBroadcast {
@@ -312,7 +312,7 @@ class BadgeAchieved implements ShouldBroadcast {
 
 return [
     // Reputation model
-    'point_model'                  => '\Ansezz\Gamify\Point',
+    'point_model'                  => '\Sajidbashir24h\Gamify\Point',
 
     // Broadcast on private channel
     'broadcast_on_private_channel' => true,
@@ -321,7 +321,7 @@ return [
     'channel_name'                 => 'user.reputation.',
 
     // Badge model
-    'badge_model'                  => '\Ansezz\Gamify\Badge',
+    'badge_model'                  => '\Sajidbashir24h\Gamify\Badge',
 
     // Where all badges icon stored
     'badge_icon_folder'            => 'images/badges/',
@@ -366,11 +366,11 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 ### Security
 
-If you discover any security related issues, please email ansezzouaine@gmail.com instead of using the issue tracker.
+If you discover any security related issues, please email Sajidbashir24houaine@gmail.com instead of using the issue tracker.
 
 ### Credits
 
-- [Anass Ez-zouaine](https://github.com/ansezz) (Author)
+- [Anass Ez-zouaine](https://github.com/Sajidbashir24h) (Author)
 
 
 ### License

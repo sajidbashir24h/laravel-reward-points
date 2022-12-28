@@ -1,6 +1,6 @@
 <?php
 
-namespace Ansezz\Gamify\Traits;
+namespace Sajidbashir24h\Gamify\Traits;
 
 trait Gamify
 {

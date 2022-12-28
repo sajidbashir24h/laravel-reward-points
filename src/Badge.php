@@ -1,6 +1,6 @@
 <?php
 
-namespace Ansezz\Gamify;
+namespace Sajidbashir24h\Gamify;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Str;

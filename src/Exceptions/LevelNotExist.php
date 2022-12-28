@@ -1,6 +1,6 @@
 <?php
 
-namespace Ansezz\Gamify\Exceptions;
+namespace Sajidbashir24h\Gamify\Exceptions;
 
 use Exception;
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace Ansezz\Gamify\Traits;
+namespace Sajidbashir24h\Gamify\Traits;
 
-use Ansezz\Gamify\Badge;
+use Sajidbashir24h\Gamify\Badge;
 use Gamify;
 
 trait HasBadges

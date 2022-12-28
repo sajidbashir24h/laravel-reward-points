@@ -1,6 +1,6 @@
 <?php
 
-namespace Ansezz\Gamify\Facades;
+namespace Sajidbashir24h\Gamify\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
