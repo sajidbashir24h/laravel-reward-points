@@ -16,7 +16,7 @@ Use `Sajidbashir24h/laravel-gamify` to quickly add point &amp; badges in your La
 **1** - You can install the package via composer:
 
 ```bash
-$ composer require Sajidbashir24h/laravel-gamify
+$ composer require sajidbashir24h/laravel-reward-points
 ```
 
 **2** - If you are installing on Laravel 5.4 or lower you will be needed to manually register Service Provider by adding it in `config/app.php` providers array.
