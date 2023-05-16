@@ -16,7 +16,11 @@ trait HasBadges
         return $this->morphToMany(Badge::class, 'badgable');
     }
 
-
+public function badgesDesc()
+    {
+        return $this->morphToMany(Badge::class, 'badgable')->orderBy('level', 'DESC'); //->latest();;
+    }
+    
     /**
      * @param null $subject
      *
